@@ -1,0 +1,187 @@
+.portfolio-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    
+}
+
+
+.jumbotron-container{
+    position: relative;
+    height: 100%;
+    background-color: white;
+    
+}
+
+.waves-container{
+    position: absolute;
+ 
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+.jumbotron-view-container{
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.name-container{
+    position: relative;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 80px;
+
+    color: #2f3640;
+}
+
+.sub-text-container{
+margin-top: 30px;
+margin-bottom: 60px;
+font-family: "Poppins";
+font-size: 25px;
+
+}
+
+
+.buttons-container{
+    width: 600px;
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.jumbotron-button{
+    position: relative;
+   padding: 8px 20px;
+   border-style: none;
+   font-size: 23px;
+   border-radius: 5px;
+   outline: none;
+   font-family: "Fira Sans" !important;
+}
+
+
+
+.project-button{
+    color: #1c3df6;
+    border: 3px solid #1c3df6;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.project-button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.project-button:hover .button-wipe-projects{
+ width: 100%;
+}
+
+.project-button i{
+    position: relative;
+    right: 8px;
+}
+
+.github-button{
+    color: #2f3640;
+    border: 3px solid #2f3640;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.github-button i{
+    position: relative;
+    right: 8px;
+}
+
+.github-button:hover .button-wipe-github{
+    height: 100%;
+}
+
+.github-button:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.button-wipe-github{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+
+    background-color: #2f3640;
+    transition: 0.3s;
+    z-index: -1;
+   
+}
+
+.button-wipe-projects{
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    left: 0px;
+    top: 0px;
+
+    background-color: #1c3df6;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+.button-wipe-contact{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+   
+    right: 0px;
+    top: 0px;
+
+    background-color: #01b64c;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+.contact-button{
+    color: #01b64c;
+    border: 3px solid #01b64c;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.contact-button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.contact-button:hover .button-wipe-contact{
+    width: 100%;
+}
+
+.contact-button i{
+    position: relative;
+    right: 8px;
+}
+
+
+
+
+
+.projects-wrapper{
+    position: relative;
+    width: 100%;
+    height: auto;
+}

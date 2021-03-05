@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "projectTitle": "PROJECT MANAGER",
+            "description": "A some what clone of Trello that I use to help me manage new projects that I build. Allowing for the creation of tasks and subtasks within them.",
+            "technologies": [
+                "HTML",
+                "CSS3",
+                "Javascript",
+                "React"
+            ],
+            "projectImage": "../images/test.png"
+        },
+        {
+            "projectTitle": "WORKOUT TRACKER",
+            "description": "An app that will track workout and nutrition progress and even give reccomendations on how to improve based on previous data given from the user.",
+            "technologies": [
+                "HTML",
+                "CSS3",
+                "Javascript",
+                "React",
+                "Python",
+                "Django"
+            ],
+            "projectImage": "../images/test.png"
+        },
+        {
+            "projectTitle": "ARTICLE READER & WRITER",
+            "description": "A Medium clone to allow users to read and write articles. Including having the ability to insert pictures, code snippets, and trees.",
+            "technologies": [
+                "HTML",
+                "CSS3",
+                "Javascript",
+                "React",
+                "Firebase"
+            ],
+            "projectImage": "../images/test.png"
+        }
+    ]
+}
